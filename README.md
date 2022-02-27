@@ -1,5 +1,5 @@
 # Cryptocurrency_App
-Live demo [https://brave-curie-df6a81.netlify.app/] to view it in your browser.
+Live demo [https://brave-curie-df6a81.netlify.app/] 
 
 
 ## Available Scripts
