@@ -41,7 +41,7 @@ function App(){
         console.log(res.data)
       })
       .catch((error) => {
-        console.log("There is some error");
+        console.log(error);
       })
     }
     

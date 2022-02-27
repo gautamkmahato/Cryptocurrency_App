@@ -80,8 +80,8 @@ function Coin() {
                     </div>
                     <div className='row'>
                         <h4>24 Hour High</h4>
-                        {singleCoin.market_data?.high_24h ? <p>${singleCoin.market_data.high_24h.usd.toLocaleString()}</p> : null}                            </div>
-
+                        {singleCoin.market_data?.high_24h ? <p>${singleCoin.market_data.high_24h.usd.toLocaleString()}</p> : null}                            
+                    </div>
                 </div>
                 <div className='right'>
                     <div className='row'>
@@ -92,7 +92,6 @@ function Coin() {
                         <h4>Circulating Supply</h4>
                         {singleCoin.market_data ? <p>{singleCoin.market_data.circulating_supply}</p> : null}
                     </div>
-
                 </div>
             </div>
           </div>
@@ -104,7 +103,6 @@ function Coin() {
                       __html: DOMPurify.sanitize(singleCoin.description ? singleCoin.description.en : ''),
                     }}>
                   </p> 
-
               </div>
           </div>
 
@@ -114,4 +112,4 @@ function Coin() {
   )
 }
 
-export default Coin
+export default Coin;

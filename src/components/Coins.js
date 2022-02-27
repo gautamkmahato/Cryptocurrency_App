@@ -23,7 +23,6 @@ function Coins({coins}){
                   <Link to={`/coin/${coin.id}`} element={<Coin />} key={coin.id}>
                       <CoinItem coins={coin} />
                   </Link>
-
               )
             })}
 
