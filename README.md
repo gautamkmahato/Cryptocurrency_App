@@ -1,4 +1,6 @@
 # Cryptocurrency_App
+Live demo [https://brave-curie-df6a81.netlify.app/](click here) to view it in your browser.
+
 
 ## Available Scripts
 
@@ -12,4 +14,5 @@ To start the project
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
 
